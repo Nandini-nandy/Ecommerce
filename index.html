@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Moirai+One&family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>SHOE STORE</title>
+</head>
+<body>
+   <div class="header">
+   <div class="navbar"> 
+   <div class="logo">
+      <a href="#" class="logo"><img src="IMAGE/shoe store.png"></a>
+       </div>
+       <div class="nav">
+         <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#products">Products</a></li>
+           <li><a href="#new arrivals">New Arrivals</a>
+          <li><a href="#about">About</a></li>
+          <li><a href="#cart"><i class="fa fa-shopping-cart"></i></a></li>
+      </ul>
+   </div>
+   </div>
+     <div class="row">
+      <div class="col-1">
+         <h1>The journey begins with<br>the perfect pair!</h1>
+         <p>Shoes have the power to transform not<br>just an outfit but also your outlook...</p>
+         <h1>50%-70% off</h1>
+         <a href="#products.html" class="btn">Explore Now &#8594;</a>
+         </div>
+         <div class="col-1"></div>
+ </div>
+</div>
+    <!---------------featured categories--------------->
+  <div class="container">
+   <div class="row">
+   <div class="col-2">
+     <img src="IMAGE/desiner.webp">
+</div>
+   <div class="col-2">
+    <img src="IMAGE/boots.webp">
+</div>
+    <div class="col-2">
+    <img src="IMAGE/snekers.webp">
+ </div>
+ </div>
+</div>
+      <!---------------featured products--------------->
+      <div id ="products"class="small-container" >
+      <h2 class="title">Featured Products</h2>
+      <div class="row">
+      <div class="col-3">
+        <img src="IMAGE/adidas3.jpg">
+        <span>Adidas Excel court M running shoes for men White</span>
+        <h4><i class="fa fa-inr">2,350</h4></i>
+        <a href="#cart" class="btn">Buy now</a>
+        <a href="#cart" class="btn" onclick="addToCart('Adidas Excel court M running shoes for men White' ,2947)">Add To Cart</a>
+         <div class="rating">
+           <i class="fa fa-star"></i> 
+           <i class="fa fa-star"></i>
+           <i class="fa fa-star"></i>
+           <i class="fa fa-star-half-o"></i>
+           <i class="fa fa-star-o"></i>
+  </div>
+</div>
+<div class="col-3">
+   <img src="IMAGE/9.webp">
+      <span>Nike SB chron Solarsoft sneakers Black</span>
+      <h4><i class="fa fa-inr">2,947</h4></i>
+      <a href="#cart" class="btn">Buy now</a>
+      <a href="#cart" class="btn" onclick="addToCart('Nike SB chron Solarsoft sneakers Black' ,2947)">Add To Cart</a>
+   <div class="rating">
+      <i class="fa fa-star"></i> 
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star-half-o"></i>
+      </div>
+</div> 
+<div class="col-3">
+   <img src="IMAGE/fura1.jpg">
+   <span>Furo Stylish walking shoes Black</span>
+   <h4><i class="fa fa-inr">1,349</h4></i>
+   <a href="#cart" class="btn">Buy now</a>
+   <a href="#cart" class="btn" onclick="addToCart('Furo Stylish walking shoes Black' ,1349)">Add To Cart</a>
+   <div class="rating">
+      <i class="fa fa-star"></i> 
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star-half-o"></i>
+      <i class="fa fa-star-o"></i>
+   </div>
+</div>
+      <div class="col-3">
+      <img src="IMAGE/pexels-photo-3281608.webp">
+      <span>Adidas Lite racer 3.0 running shoes for men White</span>
+      <h4><i class="fa fa-inr">2,699</h4></i>
+      <a href="#cart" class="btn">Buy now</a>
+      <a href="#cart"  class="btn" onclick="addToCart('Adidas Lite racer 3.0 running shoes for men White' ,2699)">Add To Cart</a>
+      <div class="rating">
+        <i class="fa fa-star"></i> 
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-half-o"></i>
+  </div>
+</div>
+<div class="col-3">
+   <img src="IMAGE/bata.webp">
+   <span>Bata Lace Up for men Black</span>
+   <h4><i class="fa fa-inr">1,299</h4></i>
+   <a href="#cart" class="btn">Buy now</a>
+   <a href="#cart" class="btn" onclick="addToCart('Bata Lace Up for men Black' ,1299)">Add To Cart</a>
+   <div class="rating">
+      <i class="fa fa-star"></i> 
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star-half-o"></i>
+      <i class="fa fa-star-o"></i>
+      </div>
+</div>
+   <div class="col-3">
+      <img src="IMAGE/adidas2.webp">
+      <span>Adidas Easy vulc 2.0 sneakers  for men Black</span>
+      <h4><i class="fa fa-inr">1,503</h4></i>
+      <a href="#cart" class="btn">Buy now</a>
+      <a href="#cart" class="btn" onclick="addToCart('Adidas Easy vulc 2.0 sneakers  for men Black' ,1503)">Add To Cart</a>
+      <div class="rating">
+        <i class="fa fa-star"></i> 
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-half-o"></i>
+   </div>
+</div>
+</div>
+      <div class="banner"><img src="IMAGE/banner6.jpg"></div>
+      <!---------------Latest Products--------------->
+       <div class="small-container">
+       <h2 class="title">Latest Products</h2>
+       <div class="row">
+       <div class="col-3">
+       <img src="IMAGE/puma7.webp">
+       <span>Puma Solarsmash RCT tennis shoes for men Yellow</span>
+       <h4><i class="fa fa-inr">3,479</h4></i>
+       <a href="#cart" class="btn">Buy now</a>
+       <a href="#cart" class="btn" onclick="addToCart('Puma Solarsmash RCT tennis shoes for men Yellow' ,3479)">Add To Cart</a>
+       <div class="rating">
+         <i class="fa fa-star"></i> 
+         <i class="fa fa-star"></i>
+         <i class="fa fa-star"></i>
+         <i class="fa fa-star-half-o"></i>
+         <i class="fa fa-star-o"></i>
+      </div>
+     </div>
+         <div class="col-3">
+            <img src="IMAGE/adidas4.webp">
+            <span>Adidas Wind chaser shoes for men Green</span>
+            <h4><i class="fa fa-inr">3,999</h4></i>
+            <a href="#cart" class="btn">Buy now</a>
+       <a href="#cart" class="btn" onclick="addToCart('Adidas Wind chaser shoes for men Green' ,3999)">Add To Cart</a>
+            <div class="rating">
+              <i class="fa fa-star"></i> 
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-half-o"></i>
+      </div>
+           </div>
+         <div class="col-3">
+            <img src="IMAGE/bataa1.webp">
+            <span>Bata Walking shoes for men Black</span>
+            <h4><i class="fa fa-inr">699</h4></i>
+            <a href="#cart" class="btn">Buy now</a>
+       <a href="#cart" class="btn" onclick="addToCart('Bata Walking shoes for men Black' ,699)">Add To Cart</a>
+            <div class="rating">
+               <i class="fa fa-star"></i> 
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star-o"></i>
+               </div>
+         </div>
+         <div class="col-3">
+            <img src="IMAGE/puma6.webp">
+            <span>Puma Hustle v2 sneakers for men Black</span>
+            <h4><i class="fa fa-inr">1,599</h4></i>
+            <a href="#cart" class="btn">Buy now</a>
+       <a href="#cart" class="btn" onclick="addToCart('Bata Walking shoes for men Black' ,1599)">Add To Cart</a>
+            <div class="rating">
+               <i class="fa fa-star"></i> 
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star-half-o"></i>
+            </div>
+         </div>
+         <div class="col-3">
+            <img src="IMAGE/nike1.webp">
+            <span>Nike Mens Revoulution flyease running shoes Black</span>
+            <h4><i class="fa fa-inr">4,722</h4></i>
+            <a href="#cart" class="btn">Buy now</a>
+       <a href="#cart" class="btn" onclick="addToCart('Nike Mens Revoulution flyease running shoes Black' ,4722)">Add To Cart</a>
+            <div class="rating">
+               <i class="fa fa-star"></i> 
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star-half-o"></i>
+               <i class="fa fa-star-o"></i>
+               </div>
+            </div>
+         <div class="col-3">
+            <img src="IMAGE/puma8.webp">
+            <span>Puma smash V2 Buck Sneakers for men white</span>
+            <h4><i class="fa fa-inr">3,589</h4></i>
+            <a href="#cart" class="btn">Buy now</a>
+       <a href="#cart" class="btn" onclick="addToCart('Puma smash V2 Buck Sneakers for men Black' ,3589)">Add To Cart</a>
+            <div class="rating">
+               <i class="fa fa-star"></i> 
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star-half-o"></i>
+               </div>
+         </div>
+         </div>
+          <!---------------Top Brands--------------->
+          <div class="small-container">
+            <h2 class="title">Top Brands</h2>
+            <div class="row">
+            <div class="col-3">
+            <img src="IMAGE/bata2.webp">
+            <span>Bata lace up for men Black</span>
+            <h4><i class="fa fa-inr">899</h4></i>
+            <a href="#cart" class="btn">Buy now</a>
+       <a href="#cart" class="btn" onclick="addToCart('Bata lace up for men Black' ,899)">Add To Cart</a>
+            <div class="rating">
+               <i class="fa fa-star"></i> 
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star-half-o"></i>
+               </div>
+         </div>
+         <div class="col-3">
+            <img src="IMAGE/adidas5.webp">
+            <span>Adidas Drogo M walking shoes for men Blue</span>
+            <h4><i class="fa fa-inr">1,999</h4></i>
+            <a href="#cart" class="btn">Buy now</a>
+       <a href="#cart" class="btn" onclick="addToCart('Adidas Drogo M walking shoes for men Black' ,1999)">Add To Cart</a>
+            <div class="rating">
+               <i class="fa fa-star"></i> 
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star-o"></i>
+               </div>
+         </div>
+         <div class="col-3">
+            <img src="IMAGE/puma9.webp">
+            <span>Puma scuderia Ferrari race sneakers for men Red</span>
+            <h4><i class="fa fa-inr">3,589</h4></i>
+            <a href="#cart" class="btn">Buy now</a>
+         <a href="#cart" class="btn" onclick="addToCart('Puma scuderia Ferrari race sneakers for men White' ,3589)">Add To Cart</a>
+            <div class="rating">
+               <i class="fa fa-star"></i> 
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star-half-o"></i>
+               <i class="fa fa-star-o"></i>
+               </div>
+         </div>
+         <div class="col-3">
+            <img src="IMAGE/bata3.webp">
+            <span>Bata Loafers Up for men Brown</span>
+            <h4><i class="fa fa-inr">649</h4></i>
+            <a href="#cart" class="btn">Buy now</a>
+         <a href="#cart" class="btn" onclick="addToCart('Bata Loafers Up for men Brown' ,649)">Add To Cart</a>
+            <div class="rating">
+               <i class="fa fa-star"></i> 
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star-half-o"></i>
+               </div>
+         </div>
+         <div class="col-3">
+            <img src="IMAGE/adidas6.webp">
+            <span>Adidas runster M running shoes for men Green</span> 
+            <h4><i class="fa fa-inr">1,804</h4></i>
+            <a href="#cart" class="btn">Buy now</a>
+         <a href="#cart" class="btn" onclick="addToCart('Adidas runster M running shoes for men Green' ,1804)">Add To Cart</a>
+            <div class="rating">
+              <i class="fa fa-star"></i> 
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-half-o"></i>
+            </div>
+      </div>
+      <div class="col-3">
+         <img src="IMAGE/nike2.webp">
+         <span>Nike mens precision phantom Blue</span>
+         <h4><i class="fa fa-inr">2,595</h4></i>
+         <a href="#cart" class="btn">Buy now</a>
+         <a href="#cart" class="btn" onclick="addToCart('Nike mens precision phantom White' ,2595)">Add To Cart</a>
+         <div class="rating">
+            <i class="fa fa-star"></i> 
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-o"></i>
+            </div>
+</div>
+         <div class="banner"><img src="IMAGE/banner8.jpg"></div>
+              <!---------------New  Arrivals--------------->
+      <div id="new arrivals" class="small-container">
+         <h2 class="title">New Arrivals</h2>
+      <div class="row">
+      <div class="col-3">
+        <img src="IMAGE/nike3.webp">
+        <span>Nike NK revolution 6NN running shoes for men Blue</span>
+        <h4><i class="fa fa-inr">2,956</h4></i>
+        <a href="#cart" class="btn">Buy now</a>
+        <a href="#cart" class="btn" onclick="addToCart('Nike NN revolution 6NN running shoes for men Blue' ,2956)">Add To Cart</a>
+         <div class="rating">
+           <i class="fa fa-star"></i> 
+           <i class="fa fa-star"></i>
+           <i class="fa fa-star"></i>
+           <i class="fa fa-star-half-o"></i>
+           <i class="fa fa-star-o"></i>
+  </div>
+</div>
+<div class="col-3">
+   <img src="IMAGE/campus1.webp">
+      <span>Campus Simba pro running shoes for men Blue</span>
+      <h4><i class="fa fa-inr">1,996</h4></i>
+      <a href="#cart" class="btn">Buy now</a>
+      <a href="#cart" class="btn" onclick="addToCart('Campus Simba pro running shoes for men Blue' ,1996)">Add To Cart</a>
+   <div class="rating">
+      <i class="fa fa-star"></i> 
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star-half-o"></i>
+      </div>
+</div> 
+<div class="col-3">
+   <img src="IMAGE/sparx1.webp">
+   <span>Sparx SM -661 running shoes for men Olive Green</span>
+   <h4><i class="fa fa-inr">1,279</h4></i>
+   <a href="#cart" class="btn">Buy now</a>
+   <a href="#cart"class="btn" onclick="addToCart('Sparx SM -661 running shoes for men Olive Green' ,1279)">Add To Cart</a>
+   <div class="rating">
+      <i class="fa fa-star"></i> 
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star-half-o"></i>
+      <i class="fa fa-star-o"></i>
+   </div>
+</div>
+      <div class="col-3">
+      <img src="IMAGE/reebok.webp">
+      <span>Reebok fortune walker W walking shoes for women Blue</span>
+      <h4><i class="fa fa-inr">2,159</h4></i>
+      <a href="#cart" class="btn">Buy now</a>
+      <a href="#cart"class="btn" onclick="addToCart('Reebok fortune walker W walking shoe for women Blue' ,2159)">Add To Cart</a>
+      <div class="rating">
+        <i class="fa fa-star"></i> 
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-half-o"></i>
+  </div>
+</div>
+<div class="col-3">
+   <img src="IMAGE/campus2.webp">
+   <span>Campus camp Kripto running shoes for men White</span>
+   <h4><i class="fa fa-inr">1,399</h4></i>
+   <a href="#cart" class="btn">Buy now</a>
+   <a href="#cart"class="btn" onclick="addToCart('Campus camp Kripto running shoes for men White' ,1299)">Add To Cart</a>
+   <div class="rating">
+      <i class="fa fa-star"></i> 
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star-half-o"></i>
+      <i class="fa fa-star-o"></i>
+      </div>
+</div>
+   <div class="col-3">
+      <img src="IMAGE/fila.webp">
+      <span>Fila Sneakers for women White</span>
+      <h4><i class="fa fa-inr">1,669</h4></i>
+      <a href="#cart" class="btn">Buy now</a>
+      <a href="#cart"class="btn" onclick="addToCart('Fila Sneakers for women White' ,1669)">Add To Cart</a>
+      <div class="rating">
+        <i class="fa fa-star"></i> 
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-half-o"></i>
+   </div>
+</div>
+<div class="col-3">
+     <img src="IMAGE/redtape.webp">
+     <span>Redtape Walking sport shoes for men Blue</span>
+     <h4><i class="fa fa-inr">2,159</h4></i>
+     <a href="#cart" class="btn">Buy now</a>
+     <a href="#cart"class="btn"onclick="addToCart('Redtape Walking sport shoes for men Blue' ,2159)">Add To Cart</a>
+     <div class="rating">
+       <i class="fa fa-star"></i> 
+       <i class="fa fa-star"></i>
+       <i class="fa fa-star"></i>
+       <i class="fa fa-star"></i>
+       <i class="fa fa-star-half-o"></i>
+  </div>
+</div>
+<div class="col-3">
+     <img src="IMAGE/mangolia.webp">
+     <span>Magnolia Sneakers for men White</span>
+     <h4><i class="fa fa-inr">2,350</h4></i>
+     <a href="#cart" class="btn">Buy now</a>
+     <a href="#cart"class="btn" onclick="addToCart('Magnolia Sneakers for men White' ,2350)">Add To Cart</a>
+     <div class="rating">
+       <i class="fa fa-star"></i> 
+       <i class="fa fa-star"></i>
+       <i class="fa fa-star"></i>
+       <i class="fa fa-star"></i>
+       <i class="fa fa-star-half-o"></i>
+  </div>
+</div>
+</div>
+          
+      <!---------Women--------->
+      <div class="small-container">
+         <h2 class="title">Women</h2>
+         <div class="row">
+         <div class="col-3">
+         <img src="IMAGE/cooper.webp">
+         <span>Cooper wings sports shoe for women</span>
+         <h4><i class="fa fa-inr">599</h4></i>
+         <a href="#cart" class="btn">Buy now</a>
+         <a href="#cart" class="btn"onclick="addToCart('Nike Nk run swift 3 running shoes for men Black' ,599)">Add To Cart</a>
+         <div class="rating">
+            <i class="fa fa-star"></i> 
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-half-o"></i>
+            </div>
+         </div>
+         <div class="col-3">
+         <img src="IMAGE/elite.webp">
+         <span>Elite women formal wear</span> 
+         <h4><i class="fa fa-inr">1,199</h4></i>
+         <a href="#cart" class="btn">Buy now</a>
+         <a href="#cart" class="btn" onclick="addToCart('Elite women formal wear' ,1199)">Add To Cart</a>
+         <div class="rating">
+         <i class="fa fa-star"></i> 
+         <i class="fa fa-star"></i>
+         <i class="fa fa-star"></i>
+         <i class="fa fa-star"></i>
+         <i class="fa fa-star-o"></i>
+         </div>
+      </div>              
+      <div class="col-3">
+         <img src="IMAGE/denil1.webp">
+         <span>Denil superfit women sports shoe</span>
+         <h4><i class="fa fa-inr">999</h4></i>
+         <a href="#cart" class="btn">Buy now</a>
+         <a href="#cart" class="btn" onclick="addToCart('Denil superfit women sports shoe',999)">Add To Cart</a>
+         <div class="rating">
+            <i class="fa fa-star"></i> 
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            </div>
+         </div>
+         <div class="col-3">
+            <img src="IMAGE/nike4.webp">
+            <span>Evoltar comfy shoes for women</span>
+            <h4><i class="fa fa-inr">1,229</h4></i>
+            <a href="#cart" class="btn">Buy now</a>
+         <a href="#cart"  class="btn" onclick="addToCart('Evoltar comfy shoes for women',1299)">Add To Cart</a>
+            <div class="rating">
+               <i class="fa fa-star"></i> 
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star-o"></i>
+               <i class="fa fa-star-half-o"></i>
+               </div>
+   </div>
+   <div class="col-3">
+   <img src="IMAGE/ravdi.webp">
+   <span>Ravdi causals women</span>
+   <h4><i class="fa fa-inr">1,259</h4></i>
+   <a href="#cart" class="btn">Buy now</a>
+         <a href="#cart" class="btn" onclick="addToCart('Footox causals women',1259)">Add To Cart</a>
+   <div class="rating">
+      <i class="fa fa-star"></i> 
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star-half-o"></i>
+   </div>
+   </div>          
+   <div class="col-3">
+      <img src="IMAGE/asian.webp">
+      <span>Asin Rider Running shoes White</span>
+      <h4><i class="fa fa-inr">399</h4></i>
+      <a href="#cart" class="btn">Buy now</a>
+         <a href="#cart"  class="btn" onclick="addToCart('Asin Rider Running shoes White',399)">Add To Cart</a>
+       <div class="rating">
+         <i class="fa fa-star"></i> 
+         <i class="fa fa-star"></i>
+         <i class="fa fa-star"></i>
+         <i class="fa fa-star"></i>
+         <i class="fa fa-star-half-o"></i>
+  </div>
+  </div>    
+      <div class="col-3">
+         <img src="IMAGE/forssil.webp">
+         <span>Forssil velvet for women</span>
+         <h4><i class="fa fa-inr">599</h4></i>
+         <a href="#cart" class="btn">Buy now</a>
+         <a href="#cart"  class="btn" onclick="addToCart('Megan velvet boots for women',599)">Add To Cart</a>
+         <div class="rating">
+            <i class="fa fa-star"></i> 
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            </div>
+         </div>
+         <div class="col-3">
+            <img src="IMAGE/bata4.webp">
+            <span> Bata Loafers for women</span>
+            <h4><i class="fa fa-inr">399</h4></i>
+            <a href="#cart" class="btn">Buy now</a>
+            <a href="#cart" class="btn"onclick="addToCart(' Bata Loafers for Women',399)">Add To Cart</a>
+            <div class="rating">
+               <i class="fa fa-star"></i> 
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star-o"></i>
+               <i class="fa fa-star-o"></i>
+               </div>
+            </div>
+            </div>
+      <!---------Kids--------->
+      <div class="small-container">
+         <h2 class="title">Kids</h2>
+         <div class="row">
+         <div class="col-3">
+         <img src="IMAGE/brutan.webp">
+         <span>Bruton super lite shoes foe kids</span>
+         <h4><i class="fa fa-inr">499</h4></i>
+         <a href="#cart" class="btn">Buy now</a>
+         <a href="#cart" class="btn" onclick="addToCart('Bruton super lite shoes foe kids',499)">Add To Cart</a>
+         <div class="rating">
+            <i class="fa fa-star"></i> 
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+            <i class="fa fa-star-half-o"></i>
+            </div>
+         </div>
+   <div class="col-3">
+   <img src="IMAGE/light1.webp">
+      <span>Trendy led lights shoes for kids</span>
+      <h4><i class="fa fa-inr">999</h4></i>
+      <a href="#cart" class="btn">Buy now</a>
+         <a href="#cart" class="btn" onclick="addToCart('Trendy led lights shoes for kids',999)">Add To Cart</a>
+      <div class="rating">
+         <i class="fa fa-star"></i> 
+         <i class="fa fa-star"></i>
+         <i class="fa fa-star"></i>
+         <i class="fa fa-star"></i>
+         <i class="fa fa-star-half-o"></i>
+         </div>
+      </div>       
+   <div class="col-3">
+      <img src="IMAGE/light2.webp">
+      <span>Nivia SuperSolar shoes for Kids</span>
+      <h4><i class="fa fa-inr">999</h4></i>
+      <a href="#cart" class="btn">Buy now</a>
+         <a href="#cart"  class="btn" onclick="addToCart('Nivia SuperSolar shoes for Kids',999)">Add To Cart</a>
+      <div class="rating">
+         <i class="fa fa-star"></i> 
+         <i class="fa fa-star"></i>
+         <i class="fa fa-star"></i>
+         <i class="fa fa-star"></i>
+         <i class="fa fa-star-half-o"></i>
+         </div>
+   </div>           
+   <div class="col-3">
+      <img src="IMAGE/nivia.webp">
+      <span>Metro led lights shoes for kids</span>
+      <h4><i class="fa fa-inr">799</h4></i>
+      <a href="#cart" class="btn">Buy now</a>
+         <a href="#cart" class="btn" onclick="addToCart('Metro led lights shoes for kids',799)">Add To Cart</a>
+      <div class="rating">
+         <i class="fa fa-star"></i> 
+         <i class="fa fa-star"></i>
+         <i class="fa fa-star-half-o"></i>
+         <i class="fa fa-star-o"></i>
+         <i class="fa fa-star-o"></i>
+         </div>                        
+ </div>
+ 
+ <!---------testimonials-------->
+<div class="testimonials">
+<div class="small-container">
+<div class="row">
+<div class="col-3">
+      <i class="fa fa-quote-left"></i>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum assumenda quia fugiat magni ad? Nam, aspernatur, in accusamus quis aut doloribus officiis ex dolores voluptas quas tempore sit enim voluptates!</p>
+      <div class="rating">
+         <i class="fa fa-star"></i> 
+         <i class="fa fa-star"></i>
+         <i class="fa fa-star"></i>
+         <i class="fa fa-star"></i>
+         <i class="fa fa-star-half-o"></i>
+         </div>
+         <h3>Priya</h3>
+   </div>
+   <div class="col-3">
+      <i class="fa fa-quote-left"></i>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, hic! Iusto quae dolor voluptate dolores. Molestiae et, laudantium nesciunt sint explicabo cupiditate ex dolores fugit illo vero, autem, vel earum.</p>
+      <div class="rating">
+         <i class="fa fa-star"></i> 
+         <i class="fa fa-star"></i>
+         <i class="fa fa-star"></i>
+         <i class="fa fa-star"></i>
+         <i class="fa fa-star-half-o"></i>
+         </div> 
+         <h3>Rohit</h3>
+   </div>
+   <div class="col-3">
+      <i class="fa fa-quote-left"></i>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel ipsam aut ex illo. Et dolor enim ratione quidem dolore in assumenda, illo molestiae libero, reprehenderit praesentium magni quo, voluptas pariatur!</p>
+      <div class="rating">
+         <i class="fa fa-star"></i> 
+         <i class="fa fa-star"></i>
+         <i class="fa fa-star"></i>
+         <i class="fa fa-star"></i>
+         <i class="fa fa-star-half-o"></i>
+         </div>
+         <h3>Sravya</h3>
+   </div>
+</div>
+</div>
+ </div>
+ <div id="cart">
+   <h2>Cart</h2>
+   <ul id="cart-items"></ul>
+   <p>Total:MRP:<span id="cart-total">0</span></p>
+ </div>
+<!---------brands----------->
+<div class="brands">
+   <div class="small-container">
+      <div class="row">
+         <div class="col-4">
+            <img src="IMAGE/nike logi.png">
+         </div>
+         <div class="col-4">
+            <img src="IMAGE/puma logo.png">
+         </div>
+         <div class="col-4">
+            <img src="IMAGE/bata logo.png">
+         </div>
+         <div class="col-4">
+            <img src="IMAGE/adidas logo1.webp">
+         </div>
+      </div>
+   </div>
+</div>
+ <!-----------Footer------------>
+ <div class="footer">
+   <div class="container">
+   <div class="row">
+   <div class="footer-col-1" >
+      <h3>Download App</h3>
+      <p>Download App for Android and IOS</p>
+      <div class="app-logo">
+      <img src="IMAGE/Google-Play-Logo.png">
+      <img src="IMAGE/appstore1.svg">
+   </div> 
+   </div> 
+   <div class="footer-col-2">
+   <h3>About</h3>
+   <img src="IMAGE/shoe store.png">
+   <p>Step Into Your Style  Where Fashion and Comfort Coexist</p>  
+   </div> 
+   <div class="footer-col-3" >
+      <h3>Useful Links</h3>
+     <ul>
+      <li>Cupons</li>
+      <li>Blog Posts</li>
+      <li>Return Policy</li>
+      <li>Join Affiliate</li>
+     </ul>
+   </div>    
+   <div class="footer-col-4" >
+      <h3>Follow Us</h3>
+     <ul>
+      <li><i class="fa fa-instagram"> Instagram</i></li>
+      <li><i class="fa fa-facebook-square"> Facebook</i></li>
+      <li><i class="fa fa-youtube-play"> Youtube</li></i>
+      <li><i class="fa fa-twitter"> Twitter</li></i>
+     </ul>
+   </div>    
+      </div>
+   </div>
+<hr>
+<p class="Copyright">Copyright © 2023, - SHOES STORE.  All rights reserved.</p>
+<script src="script.js"></script>
+</div>
+ </div>
+ </div>
+</div>      
+</body>
+</html>
